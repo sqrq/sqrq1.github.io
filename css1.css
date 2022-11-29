@@ -1,0 +1,71 @@
+div {
+    display: inline-block;
+    width: 1000px;
+    height: 100px;
+  }
+  .img{
+    border-radius: 50%;
+    border: dotted red 10px;
+    text-align: center;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+  }
+.ppp{
+border: dashed red 20px;
+background-color: red;
+color: white;
+font-family: fantasy;
+}
+.kkk{
+  letter-spacing: 5px;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: bold;
+  text-align: center;
+}
+.pp{
+  letter-spacing: 20px;
+  color: red;
+  font-style: bold;
+  text-align: center;
+  
+}
+.btn{
+  height: 20px;
+  width: 500px;
+  color: black;
+  text-align: center;
+  background-color: red;
+  margin-left: 30%;
+ 
+}
+.btn:hover{
+background-color: black;
+color: red;
+}
+.u{
+  color: red;
+  text-align: center;
+}
+html{
+background-color: black;
+}
+.wh{
+color: white;
+font-style: bold;
+}
+.p{
+color: white;
+}
+.divgl{
+margin-left: 15%;
+}
+a{
+text-decoration: none;
+color: white;
+}
+hr{
+width: auto;
+color: white;
+}
