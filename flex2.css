@@ -1,0 +1,176 @@
+.container {  display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo contact search menu";
+      background-color: rgb(232, 227, 227);
+      height: 65px;
+      position: fixed;
+      scroll-margin-block-start: none;
+  }
+  
+  .logo { grid-area: logo; }
+  
+  .contact { grid-area: contact; }
+  
+  .search { grid-area: search; }
+  
+  .menu { grid-area: menu; }
+  .contact{
+    width: 200px;
+    height: 100px;
+  }
+  /* prv del end */
+  
+  .container2 {  display: grid;
+    grid-template-columns: 3fr 1fr ;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "child1 child1 child2 child2";
+      background-color: rgba(255, 235, 205, 0.659);
+      height: 250px;
+  }
+  
+  .child1{ grid-area: child1;
+  
+   margin-right: 20%;
+   
+}
+  .h11{
+    text-align: center;
+    color: rgb(201, 164, 236);
+    margin-left: 20%;
+  }
+
+  .p11{
+    text-align: center;
+    font-weight: bold;
+  }
+  .b11{
+    background-color: rgb(201, 164, 236);
+    color: black;
+    text-align: center;
+    margin-left: 40%;
+    width: 200px;
+    border-radius: 10%;
+  }
+  .b11:hover{
+    background-color: black;
+    color: rgb(201, 164, 236); 
+    width: 300px;
+  }
+  .child2 {
+     grid-area: child2; 
+     
+    }
+    .b15{
+      background-color: rgb(201, 164, 236);
+      color: black;
+      text-align: center;
+      margin-left: 30%;
+    width: 200px;
+    border-radius: 10%;
+    }
+    .b15:hover{
+      background-color: black;
+      color: rgb(201, 164, 236); 
+      width: 300px;
+    }
+  .all{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* vtor del end */
+.container3{
+  background-color: rgb(232, 227, 227);
+}
+.h2{
+  color: rgb(201, 164, 236);
+  font-size: bold; 
+  
+}
+.p2{
+  text-align: center;
+  font-weight: bold;
+}
+  .child32 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      " child321 child322 child323";
+      margin-left: 3%;
+      margin-top: 2%;
+      margin-right: 2%;
+
+  }
+  
+  .child321 { grid-area: child321 ;
+  margin-left: 15%; }
+  
+  .child322{ grid-area: child322; 
+  margin-left: 20%;}
+  
+  .child323 { grid-area: child323; 
+  margin-left: 25%;}
+  /* tret del end */
+
+  .container4 {  display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "child41 child42 child42 child42";
+      background-color: rgba(255, 235, 205, 0.659);
+  }
+  
+  .child41{ grid-area: child41;
+  
+}
+  
+  .child42 {
+     grid-area: child42; 
+    }
+
+    /* petti del start */
+    .container5 {  display: grid;
+      grid-template-columns: 3fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "child1 child1 child2 child2";
+        background-color: rgb(232, 227, 227);
+      }
+    .child51{
+      margin-left: 10%;
+    }
+    
+    .child1{ grid-area: child1;
+    
+     margin-right: 20%;
+  }
+    
+    .child2 {
+       grid-area: child2; 
+     
+      }
+      .imgg{
+        margin-top: 10%;
+        margin-left: 70%;
+      }
+      .img{
+        margin-left: 20%;
+        margin-top: 5%;
+      }
+      .slika {
+        margin-right: 5%;
+        margin-top: 5%;
+   
+      }
